@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+    background-color: black;
+    color: orange;
+}
+.background {
+
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(0.8)
+}
+.container-link {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size:  20px;
+    justify-content: space-between;
+}
+.menu-link {
+    color: orange;
+    text-decoration: none;
+    margin-left: 20px;   
+}
+.menu-link:hover {
+    text-decoration: underline;
+}
+.logo {
+    position: absolute;
+    left: 35px;
+    top: 16px;
+    border-radius: 70px;
+}
+.title {
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    color: orange;
+    font-size: 55px;
+    width: 500px;
+    text-shadow: 5px 5px 5px rgba(0,0,0 0.5);
+}
+.title2 {
+    left: 50px;
+    top: 300px;
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.second-title {
+    display: flex;
+    height: 300px;
+    padding: 30px 100px;
+    left: 30px;
+    right: 400px;
+    font-size: 20px;
+}
+.second-title2 {
+    height: 30px;
+    padding: 20px 15px;
+    left: 30px;
+    right: 30px;
+}
+.button {
+    background-color: orange;
+    padding: 8px;
+    color: black;
+    border-radius: 10px;
+
+}
+.See-you {
+    font-size: 20px;
+}
